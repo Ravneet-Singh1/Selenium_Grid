@@ -19,6 +19,7 @@ public class GoogleTest {
 		driver.findElement(By.name("q")).sendKeys("Ravneet Singh");
 		Thread.sleep(2000);
 		System.out.println(driver.getTitle());
+		System.out.println("Adding a dummy line");
 		driver.close();
 	}
 
