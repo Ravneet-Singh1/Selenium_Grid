@@ -20,6 +20,7 @@ public class GoogleTest {
 		Thread.sleep(2000);
 		System.out.println(driver.getTitle());
 		System.out.println("Adding a dummy line");
+		System.out.println("These changes are done again by the Person A");
 		driver.close();
 	}
 
