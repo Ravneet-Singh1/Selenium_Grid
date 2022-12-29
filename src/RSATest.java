@@ -17,6 +17,7 @@ public class RSATest {
 		System.out.println(driver.getTitle());
 		Thread.sleep(2000);
 		System.out.println("Adding a dummy line in RSATest.java");
+		System.out.println("These changes are done by person B");
 		driver.close();
 	}
 
